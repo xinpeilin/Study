@@ -59,5 +59,10 @@ public class Day02 {
 		ListNode(int x) {
 			val = x;
 		}
+
+		@Override
+		public String toString() {
+			return "val:" + val + ",nextListNode:" + next;
+		}
 	}
 }
